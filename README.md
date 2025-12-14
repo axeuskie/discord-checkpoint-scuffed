@@ -6,6 +6,7 @@ If you have disabled Discord's telemetry and stuff, you can still get your stati
 
 <img width="652" height="220" alt="image" src="https://github.com/user-attachments/assets/056b6bb3-8cd9-43dd-898a-d36588527d5e" />
 <img width="465" height="235" alt="image" src="https://github.com/user-attachments/assets/c0d9476f-7a8a-4ddd-903b-2cb2ebcb479d" />
+<img width="868" height="146" alt="image" src="https://github.com/user-attachments/assets/937642ee-4934-4410-a287-2e5c55c88095" />
 
 # Requirements
 
