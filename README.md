@@ -1,8 +1,11 @@
 # discord-checkpoint-scuffed
 
-# Note
+If you have disabled Discord's telemetry and stuff, you can still get your statistics with who or which servers you interacted the most !
 
-my code smells, i don't really care, it works like that bye
+# How it looks
+
+<img width="652" height="220" alt="image" src="https://github.com/user-attachments/assets/056b6bb3-8cd9-43dd-898a-d36588527d5e" />
+<img width="465" height="235" alt="image" src="https://github.com/user-attachments/assets/c0d9476f-7a8a-4ddd-903b-2cb2ebcb479d" />
 
 # Requirements
 
@@ -21,3 +24,7 @@ How to get it : https://support.discord.com/hc/en-us/articles/360004027692-Reque
 - Enter a specific year you're interested in
 
 enjoy your stats ! 😄
+
+# Note
+
+my code smells, i don't really care, it works like that bye
