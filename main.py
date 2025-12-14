@@ -7,6 +7,7 @@ id = None
 
 directories.remove("index.json")
 directories.remove("main.py")
+directories.remove("discord-checkpoint-scuffed")
 
 tempId = None
 tempNumber = None
@@ -18,7 +19,11 @@ totalMsg = 0
 results_servers = []
 results_dm = []
 
+year = input("Hello, please input a year (YYYY format) : ")
+
+
 print("---------")
+print("Might take a second.. hang on tight.. (stream TWICE while you're at it)")
 for directory in directories:
     channelString = directory + "/channel.json"
     messagesString = directory + "/messages.json"
@@ -28,7 +33,7 @@ for directory in directories:
         # print(f"{len(msgJson)} messages found")
         counter = 0
         for line in msgJson:
-            if line["Timestamp"][0:4] == "2025":
+            if line["Timestamp"][0:4] == year:
                 counter += 1
     with open(channelString, "r", encoding="utf-8") as file:
         jsonfile = json.load(file)
@@ -52,8 +57,8 @@ results_dm.sort(key=lambda x: x[0], reverse=True)
 
 print("--- SERVERS ---")
 for result in results_servers:
-    print(f"{result[1]}-{result[0]}")
+    print(f"{result[1]} | {result[0]} messages")
 print("--- DMs ---")
 for result in results_dm:
-    print(f"{result[1]}-{result[0]}")
+    print(f"{result[1]} | {result[0]} messages")
 print(f"You have sent {totalMsg}...")
